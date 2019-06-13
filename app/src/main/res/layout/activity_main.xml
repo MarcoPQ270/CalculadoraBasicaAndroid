@@ -7,7 +7,7 @@
     tools:context="com.example.marco.app2.MainActivity">
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btnprom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -15,7 +15,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="promedio"
-        android:text="Calcular Promedio"
+        android:text="Promedio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -97,5 +97,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.684" />
+
+    <Button
+        android:id="@+id/btnsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suma"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="298dp" />
 
 </android.support.constraint.ConstraintLayout>
