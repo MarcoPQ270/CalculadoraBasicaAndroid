@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
             int num1 = Integer.parseInt(n1);
             int num2 = Integer.parseInt(n2);
             int num3 = Integer.parseInt(n3);
-            int prom = (num1 - num2 - num3)/3;
+            int prom = (num1 + num2 + num3)/3;
             String result = String.valueOf(prom);
-            tvres.setText("El resultado de la resta es: " + result);
+            tvres.setText("El Promedio es: " + result);
         }
     }
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             int num3 = Integer.parseInt(n3);
             int sum = (num1 + num2 + num3);
             String result = String.valueOf(sum);
-            tvres.setText("El resultado de la resta es: " + result);
+            tvres.setText("El resultado de la suma es: " + result);
         }
     }
     public void resta(View v){
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
             int num3 = Integer.parseInt(n3);
             int mul = (num1 * num2 * num3);
             String result = String.valueOf(mul);
-            tvres.setText("El resultado de la resta es: " + result);
+            tvres.setText("El resultado de la multiplicacion es: " + result);
         }
     }
 
